@@ -9,11 +9,11 @@
       <li @click="changeLand('es')">傻语</li>
     </ul>
     <div>
-      我就看看是不是可以了 {{$t("title.indexName")}}
-      还是这里  {{$t('creditfile.comment_2')}}
+      我就看看是不是可以了 {{$t("business.error_email")}}
+      还是这里  {{$t('business.credit')}}
       
     </div>
-    <span v-text="$t('breadName.orderCar')"></span>
+    <span v-text="$t('business.error_phone')"></span>
   </div>
 </template>
 <style>
